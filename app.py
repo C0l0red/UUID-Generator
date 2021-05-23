@@ -5,4 +5,5 @@ app = FastAPI()
 
 @app.get("/uuid")
 async def index():
+    
     return "Hello world"
